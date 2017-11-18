@@ -1,0 +1,146 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+body {
+  line-height: 1.4rem;
+}
+
+body, .background {
+  margin: 0;
+}
+
+.background {
+  width: 100%;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo.background {
+  background-color: black;
+}
+
+.logo.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo.container img {
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+
+}
+
+h1, h3 {
+  text-transform: uppercase;
+}
+
+.logo h3 {
+  padding: 0.66rem;
+  font-size: 1rem;
+}
+
+.header.background {
+  background-image: url("../moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.header.content {
+  background-color: black;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  font-weight: bold;
+}
+
+h1 {
+  padding-top: 0.25rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.nav.background {
+  background-color: firebrick;
+}
+
+.navigation.container {
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle.container {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  width: 30%;
+}
+
+.image {
+  margin: 2rem auto;
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  display: block;
+  max-height: 100%;
+  max-width: 9rem;
+}
+
+.block span, .bar h4, footer {
+  background-color: black;
+}
+
+.block span {
+  padding: 0.5rem;
+  display: block;
+  text-align: center;
+}
+
+.location-hours.row {
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.bar {
+  width: 35%;
+}
+
+.bar h4 {
+  padding: 1rem 2rem;
+}
+
+.bar span {
+  color: black;
+}
+
+footer {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
