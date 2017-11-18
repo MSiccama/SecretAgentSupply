@@ -81,6 +81,12 @@ h1 {
   justify-content: space-between;
 }
 
+.mobile.container {
+  display: none;
+  padding: 0.75rem;
+  text-align: center;
+}
+
 .middle.container {
   padding-top: 3rem;
   padding-bottom: 4rem;
@@ -143,4 +149,88 @@ footer {
   height: 5rem;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .block {
+    width: 47%;
+  }
+
+  .glasses.block {
+    display: none;
+  }
+
+  .navigation.container {
+    display: none;
+  }
+
+  .mobile.container {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .header.background {
+    heigth: 15rem;
+  }
+
+  .header.content {
+    top: 10rem;
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .header h3 {
+    font-size: 0.77rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .navigation.container {
+    display: none;
+  }
+
+  .mobile.container {
+    display: block;
+  }
+
+  .block {
+    width: 90%;
+  }
+
+  .watch.block, .glasses.block {
+    display: none;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .location-hours.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bar {
+    width: 90%;
+  }
+
+  .hours.bar {
+    padding: 0.5rem;
+  }
+
+  .footer {
+    text-align: center;
+  }
 }
